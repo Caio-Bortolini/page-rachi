@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sora&display=swap");
+
+header {
+  height: 10%;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.menu-header ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.menu-header li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.menu-header a {
+  text-decoration: none;
+  color: #6e7275;
+
+  font-family: "Inter", sans-serif;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.sessao-1 {
+  border-top: 10px;
+  width: 100%;
+  height: 60vh;
+  background-color: #eff8ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.texto {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #293145;
+}
+
+.botao {
+  background-color: #0f9afe;
+
+  width: 200px;
+  height: 56px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30px;
+
+  cursor: pointer;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* sessao-2 */
+
+.sessao-2 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.titulo {
+  margin-top: 30px;
+  color: #293145;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.item-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.sub-1 {
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #293145;
+}
+
+.sub-2 {
+  color: #6e7275;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+
+.item-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.item-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.sessao-3 {
+  width: 100%;
+  height: 50vh;
+  background-color: #eff8ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imagem-sessao-3 img {
+  width: auto;
+  height: 300px;
+}
+
+.titulo-sessao-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.titulo-section-3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+}
+
+.sub-sessao-3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #6e7275;
+  display: flex;
+  line-height: 25px;
+}
+
+.lojas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 8%;
+}
+
+.lojas img {
+  width: auto;
+  height: 70px;
+}
+
+.apple img {
+  width: auto;
+  height: 55px;
+}
+
+.sessao-4 {
+  width: 100%;
+  height: 80vh;
+}
+
+.titulo-4 {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 18px;
+  color: #293145;
+}
+
+.subtitulo-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 25px;
+
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6e7275;
+}
+
+.blocos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.bronze,
+.prata,
+.ouro {
+  width: 25%;
+  height: 400px;
+  background-color: #eff8ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.bloco-titulo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+  padding: 20px;
+}
+
+.bloco-valor {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+}
+small {
+  font-size: 17px;
+}
+
+.bloco-descricao {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #6e7275;
+  text-align: center;
+  line-height: 25px;
+}
+
+.botao-bloco {
+  background-color: #0f9afe;
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.contato {
+  width: 100%;
+  height: 60vh;
+  background: url(./imagens/unsplash_psGV5KhidlY.png) center center/cover;
+  background-color: rgba(41, 49, 69, 0.5);
+  background-blend-mode: color;
+}
+
+.titulo-contato p {
+  text-align: center;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Sora", sans-serif;
+  padding-top: 50px;
+}
+
+.sub-contato {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #dbdbdb;
+  padding-top: 25px;
+  line-height: 25px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 100px;
+  column-gap: 50px;
+}
+
+.inputs input {
+  width: 300px;
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+}
+
+.inputs button {
+  background-color: #0f9afe;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #293145;
+  font-family: "Sora", sans-serif;
+}
+
+.bronze:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: #b87333;
+  z-index: -1;
+}
+
+.prata:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: #dcdcdd;
+}
+
+.ouro:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  background-color: gold;
+}
+
+/* .hamburguer i {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+} */
+
+#btn-mobile{
+  display: none;
+}
